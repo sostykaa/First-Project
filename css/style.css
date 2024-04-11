@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1
+{
+    font-family: "Outfit", sans-serif;
+}
+h2,h3,h4,h5,h6{
+    font-family: "Inter", sans-serif;
+}
+p
+{
+    line-height: 1.7;
+    font-size: 20px;
+}
+body
+{
+    font-family: "Inter", sans-serif;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    
+}
+.first
+{
+    background: #000816;
+    color:#FFFFFF
+}
+.container
+{
+    max-width: 1200px;
+    margin:auto;
+    
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header
+{
+    padding:30px 0;
+}
+nav ul
+{
+    display: flex;
+    font-size: 20px;
+    gap:25px;
+
+}
+nav a
+{
+    color:#FFFFFF
+}
+.btn1
+{
+    border:1px solid #FFFFFF;
+    color:#FFFFFF;
+    padding:10px 30px;
+    border-radius: 15px;
+}
+
+.content-left
+{
+    padding:80;
+    flex-grow: 2;
+}
+.content-left h1
+{
+    font-size: 64px;
+}
+.btn2
+{
+    background: #003BA4;
+    color: #FFFFFF;
+    padding:25px 50px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.counter
+{
+    background: #19242D;
+    color:#FFFFFF;
+    padding:10px 30px;
+    border-radius: 10px;
+
+}
+.counterflex{
+    display: flex;
+    gap:10px;
+    margin:30px 0;
+}
+.counter h2{
+    font-size: 36px;
+    text-align: center;
+}
+.counter p{
+    font-size: 14px;
+    text-align: center;
+}
+.content-right{
+    padding: 40px 0 40px 40px;
+}
+.second
+{
+    background:#003BA4;
+    color:#FFFFFF
+}
+.div1{
+    padding:30px;
+}
+.div2{
+    padding:30px;
+}
+.third{
+    padding:50px 0;
+}
+.title{
+    text-align: center;
+    padding:30px 0;
+}
+.title h5{
+    font-size: 24px;
+}
+.title h3{
+    font-size: 36px;
+}
+.sbox{
+    margin-top: 30px;
+    padding:30px;
+    text-align: center;
+}
+.s{
+    background:#F0F5FF;
+}
+.sbox h3{
+    padding:20px;
+    font-size: 24px;
+}
+.sbox p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.sbox a{
+    
+    color:#003BA4;
+}
+.fourth{
+    background: #000816;
+    color: #FFFFFF;
+}
+
+.portfolioimage{
+    display:flex;    
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px;
+    
+}
+.port{    
+    width:320px;
+    height:405;
+}
+.port img{
+    width:100%;
+}
+
+.btn3{
+    background: #003BA4;
+    color: #FFFFFF;
+    padding:25px 50px;
+    display: inline-block;
+    
+    border-radius: 15px;
+}
+.buttonn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+}
+.fifth{
+    background: #F0F5FF;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.review1{
+    background: #FFFFFF;
+    padding:20px 40px;
+    border-radius: 20px;
+    
+}
+.review1 p{
+    text-align: left;
+}
+.review2{
+    background: #FFFFFF;
+    padding:20px 40px;
+    border-radius: 20px;
+}
+.review2 p{
+    text-align:left;
+}
+.rating{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.namee{
+    text-align: left;
+    line-height: 2;
+}
+.threedots{
+    text-align: center;
+    font-size: 30px;
+}
+.sixth{
+    background: #000816;
+    color: #FFFFFF;
+}
+footer{
+    padding:40px 0;
+}  
+.content6{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+.content6 h3{
+    padding-bottom:20px;
+}
+.content6 h2{
+    padding:10px 0 20px 0;
+}
+.socials ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding:20px 0 10px 0;
+}
+
+li{
+    line-height: 2;
+}
+.mailbox{
+    position:relative;
+    display: inline-block;
+
+}
+.sendmail{
+    width:400px;
+    height:60px;
+    padding:20px 30px;  
+    border-radius: 10px; 
+    background: #19212D; 
+    border:none;
+    font-size: 20px;
+}
+.sendbtn{    
+    background: #003BA4;
+    color: #FFFFFF;
+    padding:10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    position:absolute;
+    top:8px;
+    right:8px;
+    
+}
+.mailbox i{
+    position:absolute;
+    top:20px;
+    left:8px;
+    height:20px;
+}
